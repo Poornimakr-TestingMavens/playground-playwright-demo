@@ -1,0 +1,51 @@
+
+{
+  "Headsets": [
+    "Sony WH-1000XM4",
+    "Bose QuietComfort 45",
+    "Sennheiser Momentum 3 Wireless",
+    "Jabra Elite 85h",
+    "Beats Studio Buds",
+    "Audio-Technica ATH-M50xBT",
+    "SteelSeries Arctis 9",
+    "Razer BlackShark V2 Pro",
+    "HyperX Cloud II Wireless",
+    "Corsair Virtuoso RGB Wireless XT"
+  ],
+  "Laptops": [
+    "Dell XPS 13",
+    "MacBook Pro 16",
+    "HP Spectre x360",
+    "Lenovo ThinkPad X1 Carbon",
+    "Asus ZenBook 14",
+    "Microsoft Surface Laptop 4",
+    "Razer Blade 15",
+    "Acer Predator Helios 300",
+    "Gigabyte Aero 15 OLED",
+    "MSI GS66 Stealth"
+  ],
+  "Mobiles": [
+    "iPhone 13 Pro",
+    "Samsung Galaxy S22 Ultra",
+    "Google Pixel 6 Pro",
+    "OnePlus 10 Pro",
+    "Xiaomi Mi 12",
+    "Sony Xperia 1 III",
+    "Huawei P50 Pro",
+    "Oppo Find X5 Pro",
+    "Realme GT 2 Pro",
+    "Motorola Edge 30 Pro"
+  ],
+  "TVs": [
+    "Samsung QN90A Neo QLED",
+    "LG C1 OLED",
+    "Sony A90J OLED",
+    "TCL 6-Series Mini-LED",
+    "Hisense U8G Quantum",
+    "Vizio P-Series Quantum",
+    "Philips OLED805",
+    "Panasonic JZ2000 OLED",
+    "LG NanoCell 90 Series",
+    "Toshiba Fire TV C350 Series"
+  ]
+}

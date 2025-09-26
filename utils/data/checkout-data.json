@@ -1,0 +1,9 @@
+{
+  "shippingDetails": {
+    "fullName": "Test User",
+    "email": "testuser@gmail.com",
+    "address": "123 Test Street",
+    "phone": "9876543210"
+  }
+
+}
