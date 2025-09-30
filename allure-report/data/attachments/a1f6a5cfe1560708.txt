@@ -1,0 +1,4 @@
+Clicked on Shop By Category link
+Selecting category: Headsets
+Adding Razer BlackShark V2 Pro from Headsets to wishlist
+E2E report generated: C:\Projects\playground-auto\utils\artifacts\e2e-report.html

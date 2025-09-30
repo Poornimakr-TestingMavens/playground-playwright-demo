@@ -1,0 +1,718 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6] [cursor=pointer]:
+      - alert [ref=e7] [cursor=pointer]:
+        - img [ref=e9] [cursor=pointer]
+        - generic [ref=e11] [cursor=pointer]: Product already in wishlist
+      - button "close" [ref=e12] [cursor=pointer]:
+        - img [ref=e13] [cursor=pointer]
+      - progressbar "notification timer" [ref=e17] [cursor=pointer]
+    - navigation [ref=e19]:
+      - generic [ref=e20]:
+        - link "PlayGround" [ref=e21] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e22] [cursor=pointer]: PlayGround
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Home" [active] [ref=e26] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e27]:
+            - link "Shop" [ref=e28] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=e29]:
+            - link "Components" [ref=e30] [cursor=pointer]:
+              - /url: /components
+          - listitem [ref=e31]:
+            - link "About" [ref=e32] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e33]:
+            - link "Contact" [ref=e34] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e35]:
+            - link "Journal" [ref=e36] [cursor=pointer]:
+              - /url: /journal
+          - listitem [ref=e37]:
+            - link "API" [ref=e38] [cursor=pointer]:
+              - /url: /apidoc
+          - generic [ref=e41]:
+            - log [ref=e43]
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e47]: English
+                - combobox [ref=e50]
+              - img [ref=e54]
+    - generic [ref=e56]:
+      - generic [ref=e59]:
+        - generic [ref=e61] [cursor=pointer]:
+          - img [ref=e62] [cursor=pointer]
+          - paragraph [ref=e64] [cursor=pointer]: Shop by Category
+        - generic [ref=e65]:
+          - textbox "Search your products here" [ref=e66]
+          - img [ref=e67]
+        - generic [ref=e69] [cursor=pointer]:
+          - generic [ref=e71] [cursor=pointer]:
+            - img [ref=e72] [cursor=pointer]
+            - img [ref=e74] [cursor=pointer]
+          - link "1" [ref=e76] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e77] [cursor=pointer]:
+              - img [ref=e78] [cursor=pointer]
+              - generic [ref=e80] [cursor=pointer]: "1"
+          - link "2" [ref=e81] [cursor=pointer]:
+            - /url: /wishlist
+            - generic [ref=e82] [cursor=pointer]:
+              - img [ref=e83] [cursor=pointer]
+              - generic [ref=e85] [cursor=pointer]: "2"
+      - generic [ref=e86]:
+        - link "Profile" [ref=e87] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=e88] [cursor=pointer]:
+            - generic [ref=e89] [cursor=pointer]:
+              - img [ref=e90] [cursor=pointer]
+              - img [ref=e93] [cursor=pointer]
+            - paragraph [ref=e96] [cursor=pointer]: Profile
+        - link "Buy Now 1" [ref=e97] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e98] [cursor=pointer]:
+            - generic [ref=e99] [cursor=pointer]:
+              - img [ref=e100] [cursor=pointer]
+              - img [ref=e102] [cursor=pointer]
+            - paragraph [ref=e104] [cursor=pointer]: Buy Now
+            - paragraph [ref=e105] [cursor=pointer]: "1"
+      - generic [ref=e106]:
+        - generic [ref=e108]:
+          - generic [ref=e110]:
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - heading [level=1] [ref=e116]: Discover the Latest Gadgets
+                - paragraph [ref=e117]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e118] [cursor=pointer]: SHOP NOW
+              - img [ref=e120]
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - heading "Discover the Latest Gadgets" [level=1] [ref=e126]
+                - paragraph [ref=e127]: Explore our premium selection of mobiles, laptops, TVs, and headsets for exceptional digital experiences
+                - button "SHOP NOW" [ref=e128] [cursor=pointer]
+              - img "LG NanoCell 90 Series" [ref=e130]
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - heading [level=1] [ref=e136]: Unleash Your Creativity
+                - paragraph [ref=e137]: Discover our wide range of gadgets designed for professional tech needs
+                - button [ref=e138] [cursor=pointer]: SHOP NOW
+              - img [ref=e140]
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - heading [level=1] [ref=e146]: Upgrade Your Tech Experience
+                - paragraph [ref=e147]: Let your ideas flourish with our cutting-edge tech solutions
+                - button [ref=e148] [cursor=pointer]: SHOP NOW
+              - img [ref=e150]
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - heading [level=1] [ref=e156]: Discover the Latest Gadgets
+                - paragraph [ref=e157]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e158] [cursor=pointer]: SHOP NOW
+              - img [ref=e160]
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - heading [level=1] [ref=e166]: Discover the Latest Gadgets
+                - paragraph [ref=e167]: Explore our premium selection of mobiles, laptops, TVs, and headsets for exceptional digital experiences
+                - button [ref=e168] [cursor=pointer]: SHOP NOW
+              - img [ref=e170]
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - heading [level=1] [ref=e176]: Unleash Your Creativity
+                - paragraph [ref=e177]: Discover our wide range of gadgets designed for professional tech needs
+                - button [ref=e178] [cursor=pointer]: SHOP NOW
+              - img [ref=e180]
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - heading [level=1] [ref=e186]: Upgrade Your Tech Experience
+                - paragraph [ref=e187]: Let your ideas flourish with our cutting-edge tech solutions
+                - button [ref=e188] [cursor=pointer]: SHOP NOW
+              - img [ref=e190]
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - heading [level=1] [ref=e196]: Discover the Latest Gadgets
+                - paragraph [ref=e197]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e198] [cursor=pointer]: SHOP NOW
+              - img [ref=e200]
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - button [ref=e204] [cursor=pointer]
+            - listitem [ref=e205]:
+              - button [ref=e206] [cursor=pointer]
+            - listitem [ref=e207]:
+              - button [ref=e208] [cursor=pointer]
+            - listitem [ref=e209]:
+              - button [ref=e210] [cursor=pointer]
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - img [ref=e215]
+            - paragraph [ref=e223]: Two years warranty
+          - generic [ref=e224]:
+            - img [ref=e226]
+            - paragraph [ref=e228]:
+              - text: Free shipping
+              - generic [ref=e229]: Free Shipping World Wide
+          - generic [ref=e230]:
+            - img [ref=e232]
+            - paragraph [ref=e239]: Return policy in 30 days
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/9a453004-36b7-4022-8cc2-af1ac4cd728f-mobile1.jpeg" [ref=e244]
+              - generic [ref=e246]:
+                - heading "Mobiles Sale" [level=2] [ref=e247]
+                - paragraph [ref=e248]:
+                  - text: Up to
+                  - generic [ref=e249]: 50%
+                  - text: sales for all Mobiles
+                - link "Shop Now" [ref=e251] [cursor=pointer]:
+                  - /url: /shop?categories=Mobiles
+                  - button "Shop Now" [ref=e252] [cursor=pointer]
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp" [ref=e256]
+                - generic [ref=e258]:
+                  - heading "Headsets Sale" [level=2] [ref=e259]
+                  - paragraph [ref=e260]:
+                    - text: Up to
+                    - generic [ref=e261]: 40%
+                    - text: sales for all Headsets
+                  - link "Shop Now" [ref=e263] [cursor=pointer]:
+                    - /url: /shop?categories=Headsets
+                    - button "Shop Now" [ref=e264] [cursor=pointer]
+              - generic [ref=e265]:
+                - generic:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/8413ce7e-eb93-4c29-8edf-c5eabafe781f-tv1.jpeg"
+                - generic [ref=e267]:
+                  - heading "TVs Sale" [level=2] [ref=e268]
+                  - paragraph [ref=e269]:
+                    - text: Up to
+                    - generic [ref=e270]: 30%
+                    - text: sales for all TVs
+                  - link "Shop Now" [ref=e272] [cursor=pointer]:
+                    - /url: /shop?categories=TVs
+                    - button "Shop Now" [ref=e273] [cursor=pointer]
+          - generic [ref=e274]:
+            - generic [ref=e275]: New Arrivals
+            - generic [ref=e276]:
+              - img [ref=e279] [cursor=pointer]
+              - generic [ref=e282]:
+                - generic [ref=e286]:
+                  - img [ref=e288]
+                  - generic [ref=e289]:
+                    - generic [ref=e290]:
+                      - heading [level=2] [ref=e291]: Motorola Edge 30 Pro
+                      - paragraph [ref=e292]: Midnight Blue
+                      - paragraph [ref=e293]: $699
+                    - generic [ref=e294]:
+                      - button [ref=e295] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e296] [cursor=pointer]
+                      - button [ref=e298] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e299] [cursor=pointer]
+                - generic [ref=e304]:
+                  - img [ref=e306]
+                  - generic [ref=e307]:
+                    - generic [ref=e308]:
+                      - heading [level=2] [ref=e309]: OnePlus 10 Pro
+                      - paragraph [ref=e310]: Morning Mist
+                      - paragraph [ref=e311]: $899
+                    - generic [ref=e312]:
+                      - button [ref=e313] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e314] [cursor=pointer]
+                      - button [ref=e316] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e317] [cursor=pointer]
+                - generic [ref=e322]:
+                  - img [ref=e324]
+                  - generic [ref=e325]:
+                    - generic [ref=e326]:
+                      - heading [level=2] [ref=e327]: TCL 6-Series Mini-LED
+                      - paragraph [ref=e328]: Graphite
+                      - paragraph [ref=e329]: $1099.99
+                    - generic [ref=e330]:
+                      - button [ref=e331] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e332] [cursor=pointer]
+                      - button [ref=e334] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e335] [cursor=pointer]
+                - generic [ref=e340]:
+                  - img [ref=e342]
+                  - generic [ref=e343]:
+                    - generic [ref=e344]:
+                      - heading [level=2] [ref=e345]: Dell XPS 13
+                      - paragraph [ref=e346]: Silver
+                      - paragraph [ref=e347]: $1299
+                    - generic [ref=e348]:
+                      - button [ref=e349] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e350] [cursor=pointer]
+                      - button [ref=e352] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e353] [cursor=pointer]
+                - generic [ref=e358]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/9d99c4b4-4b8c-4618-9243-8d35530f3d20-tv9.jpg" [ref=e360]
+                  - generic [ref=e361]:
+                    - generic [ref=e362]:
+                      - heading "LG NanoCell 90 Series" [level=2] [ref=e363]
+                      - paragraph [ref=e364]: Black
+                      - paragraph [ref=e365]: $1799.99
+                    - generic [ref=e366]:
+                      - button "Add to Cart" [ref=e367] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e368] [cursor=pointer]
+                      - button "Wish List" [ref=e370] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e371] [cursor=pointer]
+                - generic [ref=e376]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/29f63573-7f3d-4283-8204-d1ca99999db0-mobile8.webp" [ref=e378]
+                  - generic [ref=e379]:
+                    - generic [ref=e380]:
+                      - heading "Oppo Find X5 Pro" [level=2] [ref=e381]
+                      - paragraph [ref=e382]: Emerald Green
+                      - paragraph [ref=e383]: $1199
+                    - generic [ref=e384]:
+                      - button "Add to Cart" [ref=e385] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e386] [cursor=pointer]
+                      - button "Wish List" [ref=e388] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e389] [cursor=pointer]
+                - generic [ref=e394]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/850239b6-3a75-41ba-a21c-723d839ff04d-laptop2.jpeg" [ref=e396]
+                  - generic [ref=e397]:
+                    - generic [ref=e398]:
+                      - heading "MacBook Pro 16" [level=2] [ref=e399]
+                      - paragraph [ref=e400]: Space Gray
+                      - paragraph [ref=e401]: $2399
+                    - generic [ref=e402]:
+                      - button "Add to Cart" [ref=e403] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e404] [cursor=pointer]
+                      - button "Wish List" [ref=e406] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e407] [cursor=pointer]
+                - generic [ref=e412]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/9a453004-36b7-4022-8cc2-af1ac4cd728f-mobile1.jpeg" [ref=e414]
+                  - generic [ref=e415]:
+                    - generic [ref=e416]:
+                      - heading "iPhone 13 Pro" [level=2] [ref=e417]
+                      - paragraph [ref=e418]: Graphite
+                      - paragraph [ref=e419]: $999
+                    - generic [ref=e420]:
+                      - button "Add to Cart" [ref=e421] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e422] [cursor=pointer]
+                      - button "Wish List" [ref=e424] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e425] [cursor=pointer]
+                - generic [ref=e430]:
+                  - img [ref=e432]
+                  - generic [ref=e433]:
+                    - generic [ref=e434]:
+                      - heading [level=2] [ref=e435]: Samsung QN90A Neo QLED
+                      - paragraph [ref=e436]: Titan Black
+                      - paragraph [ref=e437]: $1999.99
+                    - generic [ref=e438]:
+                      - button [ref=e439] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e440] [cursor=pointer]
+                      - button [ref=e442] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e443] [cursor=pointer]
+                - generic [ref=e448]:
+                  - img [ref=e450]
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - heading [level=2] [ref=e453]: Realme GT 2 Pro
+                      - paragraph [ref=e454]: Paper White
+                      - paragraph [ref=e455]: $799
+                    - generic [ref=e456]:
+                      - button [ref=e457] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e458] [cursor=pointer]
+                      - button [ref=e460] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e461] [cursor=pointer]
+                - generic [ref=e466]:
+                  - img [ref=e468]
+                  - generic [ref=e469]:
+                    - generic [ref=e470]:
+                      - heading [level=2] [ref=e471]: Motorola Edge 30 Pro
+                      - paragraph [ref=e472]: Midnight Blue
+                      - paragraph [ref=e473]: $699
+                    - generic [ref=e474]:
+                      - button [ref=e475] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e476] [cursor=pointer]
+                      - button [ref=e478] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e479] [cursor=pointer]
+                - generic [ref=e484]:
+                  - img [ref=e486]
+                  - generic [ref=e487]:
+                    - generic [ref=e488]:
+                      - heading [level=2] [ref=e489]: OnePlus 10 Pro
+                      - paragraph [ref=e490]: Morning Mist
+                      - paragraph [ref=e491]: $899
+                    - generic [ref=e492]:
+                      - button [ref=e493] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e494] [cursor=pointer]
+                      - button [ref=e496] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e497] [cursor=pointer]
+                - generic [ref=e502]:
+                  - img [ref=e504]
+                  - generic [ref=e505]:
+                    - generic [ref=e506]:
+                      - heading [level=2] [ref=e507]: TCL 6-Series Mini-LED
+                      - paragraph [ref=e508]: Graphite
+                      - paragraph [ref=e509]: $1099.99
+                    - generic [ref=e510]:
+                      - button [ref=e511] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e512] [cursor=pointer]
+                      - button [ref=e514] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e515] [cursor=pointer]
+                - generic [ref=e520]:
+                  - img [ref=e522]
+                  - generic [ref=e523]:
+                    - generic [ref=e524]:
+                      - heading [level=2] [ref=e525]: Dell XPS 13
+                      - paragraph [ref=e526]: Silver
+                      - paragraph [ref=e527]: $1299
+                    - generic [ref=e528]:
+                      - button [ref=e529] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e530] [cursor=pointer]
+                      - button [ref=e532] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e533] [cursor=pointer]
+                - generic [ref=e538]:
+                  - img [ref=e540]
+                  - generic [ref=e541]:
+                    - generic [ref=e542]:
+                      - heading [level=2] [ref=e543]: LG NanoCell 90 Series
+                      - paragraph [ref=e544]: Black
+                      - paragraph [ref=e545]: $1799.99
+                    - generic [ref=e546]:
+                      - button [ref=e547] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e548] [cursor=pointer]
+                      - button [ref=e550] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e551] [cursor=pointer]
+                - generic [ref=e556]:
+                  - img [ref=e558]
+                  - generic [ref=e559]:
+                    - generic [ref=e560]:
+                      - heading [level=2] [ref=e561]: Oppo Find X5 Pro
+                      - paragraph [ref=e562]: Emerald Green
+                      - paragraph [ref=e563]: $1199
+                    - generic [ref=e564]:
+                      - button [ref=e565] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e566] [cursor=pointer]
+                      - button [ref=e568] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e569] [cursor=pointer]
+                - generic [ref=e574]:
+                  - img [ref=e576]
+                  - generic [ref=e577]:
+                    - generic [ref=e578]:
+                      - heading [level=2] [ref=e579]: MacBook Pro 16
+                      - paragraph [ref=e580]: Space Gray
+                      - paragraph [ref=e581]: $2399
+                    - generic [ref=e582]:
+                      - button [ref=e583] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e584] [cursor=pointer]
+                      - button [ref=e586] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e587] [cursor=pointer]
+                - generic [ref=e592]:
+                  - img [ref=e594]
+                  - generic [ref=e595]:
+                    - generic [ref=e596]:
+                      - heading [level=2] [ref=e597]: iPhone 13 Pro
+                      - paragraph [ref=e598]: Graphite
+                      - paragraph [ref=e599]: $999
+                    - generic [ref=e600]:
+                      - button [ref=e601] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e602] [cursor=pointer]
+                      - button [ref=e604] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e605] [cursor=pointer]
+                - generic [ref=e610]:
+                  - img [ref=e612]
+                  - generic [ref=e613]:
+                    - generic [ref=e614]:
+                      - heading [level=2] [ref=e615]: Samsung QN90A Neo QLED
+                      - paragraph [ref=e616]: Titan Black
+                      - paragraph [ref=e617]: $1999.99
+                    - generic [ref=e618]:
+                      - button [ref=e619] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e620] [cursor=pointer]
+                      - button [ref=e622] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e623] [cursor=pointer]
+                - generic [ref=e628]:
+                  - img [ref=e630]
+                  - generic [ref=e631]:
+                    - generic [ref=e632]:
+                      - heading [level=2] [ref=e633]: Realme GT 2 Pro
+                      - paragraph [ref=e634]: Paper White
+                      - paragraph [ref=e635]: $799
+                    - generic [ref=e636]:
+                      - button [ref=e637] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e638] [cursor=pointer]
+                      - button [ref=e640] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e641] [cursor=pointer]
+                - generic [ref=e646]:
+                  - img [ref=e648]
+                  - generic [ref=e649]:
+                    - generic [ref=e650]:
+                      - heading [level=2] [ref=e651]: Motorola Edge 30 Pro
+                      - paragraph [ref=e652]: Midnight Blue
+                      - paragraph [ref=e653]: $699
+                    - generic [ref=e654]:
+                      - button [ref=e655] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e656] [cursor=pointer]
+                      - button [ref=e658] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e659] [cursor=pointer]
+                - generic [ref=e664]:
+                  - img [ref=e666]
+                  - generic [ref=e667]:
+                    - generic [ref=e668]:
+                      - heading [level=2] [ref=e669]: OnePlus 10 Pro
+                      - paragraph [ref=e670]: Morning Mist
+                      - paragraph [ref=e671]: $899
+                    - generic [ref=e672]:
+                      - button [ref=e673] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e674] [cursor=pointer]
+                      - button [ref=e676] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e677] [cursor=pointer]
+                - generic [ref=e682]:
+                  - img [ref=e684]
+                  - generic [ref=e685]:
+                    - generic [ref=e686]:
+                      - heading [level=2] [ref=e687]: TCL 6-Series Mini-LED
+                      - paragraph [ref=e688]: Graphite
+                      - paragraph [ref=e689]: $1099.99
+                    - generic [ref=e690]:
+                      - button [ref=e691] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e692] [cursor=pointer]
+                      - button [ref=e694] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e695] [cursor=pointer]
+                - generic [ref=e700]:
+                  - img [ref=e702]
+                  - generic [ref=e703]:
+                    - generic [ref=e704]:
+                      - heading [level=2] [ref=e705]: Dell XPS 13
+                      - paragraph [ref=e706]: Silver
+                      - paragraph [ref=e707]: $1299
+                    - generic [ref=e708]:
+                      - button [ref=e709] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e710] [cursor=pointer]
+                      - button [ref=e712] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e713] [cursor=pointer]
+              - img [ref=e717] [cursor=pointer]
+          - generic [ref=e719]:
+            - generic [ref=e720]: Our Bestsellers
+            - generic [ref=e721]:
+              - generic [ref=e722]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/db8b7fdd-5ded-4537-918e-aa5c29067174-laptop4.jpeg" [ref=e724]
+                - generic [ref=e725]:
+                  - generic [ref=e726]:
+                    - heading "Lenovo ThinkPad X1 Carbon" [level=2] [ref=e727]
+                    - paragraph [ref=e728]: Black
+                    - paragraph [ref=e729]: $1599
+                  - generic [ref=e730]:
+                    - button "Add to Cart" [ref=e731] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e732] [cursor=pointer]
+                    - button "Wish List" [ref=e734] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e735] [cursor=pointer]
+              - generic [ref=e737]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/8413ce7e-eb93-4c29-8edf-c5eabafe781f-tv1.jpeg" [ref=e739]
+                - generic [ref=e740]:
+                  - generic [ref=e741]:
+                    - heading "Samsung QN90A Neo QLED" [level=2] [ref=e742]
+                    - paragraph [ref=e743]: Titan Black
+                    - paragraph [ref=e744]: $1999.99
+                  - generic [ref=e745]:
+                    - button "Add to Cart" [ref=e746] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e747] [cursor=pointer]
+                    - button "Wish List" [ref=e749] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e750] [cursor=pointer]
+              - generic [ref=e752]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/1f960dad-bbe8-4f14-971b-9fa47ed38d86-headset10.webp" [ref=e754]
+                - generic [ref=e755]:
+                  - generic [ref=e756]:
+                    - heading "Corsair Virtuoso RGB Wireless XT" [level=2] [ref=e757]
+                    - paragraph [ref=e758]: White
+                    - paragraph [ref=e759]: $269.99
+                  - generic [ref=e760]:
+                    - button "Add to Cart" [ref=e761] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e762] [cursor=pointer]
+                    - button "Wish List" [ref=e764] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e765] [cursor=pointer]
+              - generic [ref=e767]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/51742fdd-f485-4589-9936-25341bbcc3e5-tv5.jpeg" [ref=e769]
+                - generic [ref=e770]:
+                  - generic [ref=e771]:
+                    - heading "Hisense U8G Quantum" [level=2] [ref=e772]
+                    - paragraph [ref=e773]: Slate Black
+                    - paragraph [ref=e774]: $999.99
+                  - generic [ref=e775]:
+                    - button "Add to Cart" [ref=e776] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e777] [cursor=pointer]
+                    - button "Wish List" [ref=e779] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e780] [cursor=pointer]
+              - generic [ref=e782]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/1b3236b2-52f9-4cba-a647-b772f2634e72-mobile4.jpeg" [ref=e784]
+                - generic [ref=e785]:
+                  - generic [ref=e786]:
+                    - heading "OnePlus 10 Pro" [level=2] [ref=e787]
+                    - paragraph [ref=e788]: Morning Mist
+                    - paragraph [ref=e789]: $899
+                  - generic [ref=e790]:
+                    - button "Add to Cart" [ref=e791] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e792] [cursor=pointer]
+                    - button "Wish List" [ref=e794] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e795] [cursor=pointer]
+              - generic [ref=e797]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/b72ef43c-2192-458e-aad3-1360a3c7540a-mobile2.jpeg" [ref=e799]
+                - generic [ref=e800]:
+                  - generic [ref=e801]:
+                    - heading "Samsung Galaxy S22 Ultra" [level=2] [ref=e802]
+                    - paragraph [ref=e803]: Phantom Black
+                    - paragraph [ref=e804]: $1199.99
+                  - generic [ref=e805]:
+                    - button "Add to Cart" [ref=e806] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e807] [cursor=pointer]
+                    - button "Wish List" [ref=e809] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e810] [cursor=pointer]
+              - generic [ref=e812]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/1150cf32-83df-45ce-8bbb-c61fc84f1d66-mobile7.jpeg" [ref=e814]
+                - generic [ref=e815]:
+                  - generic [ref=e816]:
+                    - heading "Huawei P50 Pro" [level=2] [ref=e817]
+                    - paragraph [ref=e818]: Golden Black
+                    - paragraph [ref=e819]: $1199
+                  - generic [ref=e820]:
+                    - button "Add to Cart" [ref=e821] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e822] [cursor=pointer]
+                    - button "Wish List" [ref=e824] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e825] [cursor=pointer]
+              - generic [ref=e827]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/efeae6fe-f9b3-4324-bfb6-3f997c54d583-tv4.webp" [ref=e829]
+                - generic [ref=e830]:
+                  - generic [ref=e831]:
+                    - heading "TCL 6-Series Mini-LED" [level=2] [ref=e832]
+                    - paragraph [ref=e833]: Graphite
+                    - paragraph [ref=e834]: $1099.99
+                  - generic [ref=e835]:
+                    - button "Add to Cart" [ref=e836] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e837] [cursor=pointer]
+                    - button "Wish List" [ref=e839] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e840] [cursor=pointer]
+          - link "/assets/productOfTheYear-BbQC5mcT.webp Product of The year Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat cupiditate modi amet! Facilis, aperiam quaerat. Shop Now" [ref=e842] [cursor=pointer]:
+            - /url: /shop
+            - generic [ref=e843] [cursor=pointer]:
+              - img "/assets/productOfTheYear-BbQC5mcT.webp" [ref=e844] [cursor=pointer]
+              - generic [ref=e845] [cursor=pointer]:
+                - heading "Product of The year" [level=1] [ref=e846] [cursor=pointer]
+                - paragraph [ref=e847] [cursor=pointer]: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat cupiditate modi amet! Facilis, aperiam quaerat.
+                - button "Shop Now" [ref=e848] [cursor=pointer]
+      - generic [ref=e850]:
+        - generic [ref=e851]:
+          - heading "More about PlayGround" [level=3] [ref=e852]
+          - generic [ref=e853]:
+            - paragraph [ref=e854]: Sign up for our newsletter to receive updates and news.
+            - list [ref=e855]:
+              - link [ref=e856] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e857] [cursor=pointer]:
+                  - img [ref=e858] [cursor=pointer]
+              - link [ref=e860] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e861] [cursor=pointer]:
+                  - img [ref=e862] [cursor=pointer]
+              - link [ref=e864] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e865] [cursor=pointer]:
+                  - img [ref=e866] [cursor=pointer]
+              - link [ref=e868] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e869] [cursor=pointer]:
+                  - img [ref=e870] [cursor=pointer]
+        - generic [ref=e872]:
+          - heading "Shop" [level=3] [ref=e873]
+          - list [ref=e874]:
+            - listitem [ref=e875] [cursor=pointer]: Accesories
+            - listitem [ref=e876] [cursor=pointer]: Clothes
+            - listitem [ref=e877] [cursor=pointer]: Electronics
+            - listitem [ref=e878] [cursor=pointer]: Home appliances
+            - listitem [ref=e879] [cursor=pointer]: New Arrivals
+        - generic [ref=e880]:
+          - heading "Your account" [level=3] [ref=e881]
+          - list [ref=e882]:
+            - listitem [ref=e883] [cursor=pointer]: Profile
+            - listitem [ref=e884] [cursor=pointer]: Orders
+            - listitem [ref=e885] [cursor=pointer]: Addresses
+            - listitem [ref=e886] [cursor=pointer]: Account Details
+            - listitem [ref=e887] [cursor=pointer]: Payment Options
+        - generic [ref=e888]:
+          - heading "Subscribe to our newsletter." [level=3] [ref=e889]
+          - generic [ref=e890]:
+            - paragraph [ref=e891]: Sign up for our newsletter to receive updates and news.
+            - generic [ref=e892]:
+              - textbox "Insert your email ...*" [ref=e894]
+              - button "Subscribe" [ref=e895] [cursor=pointer]
+            - img "/assets/payment-BAywfhtf.png" [ref=e896]
+      - paragraph [ref=e899]:
+        - img [ref=e901]
+        - text: Copyright 2024 | PlayGround | All Rights Reserved |
+        - link "Powered by Testing Mavens" [ref=e903] [cursor=pointer]:
+          - /url: https://www.testingmavens.com/
+          - generic [ref=e904] [cursor=pointer]: Powered by Testing Mavens
+  - img [ref=e907]
+```

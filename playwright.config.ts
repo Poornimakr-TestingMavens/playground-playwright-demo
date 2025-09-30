@@ -36,9 +36,15 @@ export default defineConfig({
  // reporter: 'html',
  reporter: [
     ['list'],
-    ['allure-playwright', { outputFolder: path.join(artifactsDir, 'allure-results') }],
+    ['allure-playwright', { outputFolder: path.join(artifactsDir, 'allure-results'),
+      disableMochaHooks: true, 
+   
+     }],
     ['html', { outputFolder: path.join(artifactsDir, 'html-report'), open: 'never' }],
+   
+      
   ],
+  
 
   // Put test artifacts (screenshots, traces, videos) here
   //outputDir: path.join(artifactsDir, 'test-results'),
@@ -49,8 +55,9 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    headless: false,
+    headless: true,
     trace: 'on-first-retry',
+    
     //storageState: 'playwright/.auth/admin.json', // default = admin
   },
 

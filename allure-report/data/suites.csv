@@ -1,3 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","15697","User completes order for multiple categories","chromium","Fri Sep 26 07:23:23 IST 2025","failed","Fri Sep 26 07:23:39 IST 2025","End-to-End Purchase Flow","E2E.spec.ts","",""
-"","15879","User completes order for multiple categories","chromium-user","Fri Sep 26 07:23:23 IST 2025","failed","Fri Sep 26 07:23:39 IST 2025","End-to-End Purchase Flow","E2E.spec.ts","",""
+"","8378","User completes order for multiple categories","chromium-user","Tue Sep 30 12:31:23 IST 2025","failed","Tue Sep 30 12:31:31 IST 2025","End-to-End Purchase Flow","E2E.spec.ts","",""
+"","16102","User completes order for multiple categories","chromium","Tue Sep 30 12:31:23 IST 2025","failed","Tue Sep 30 12:31:39 IST 2025","End-to-End Purchase Flow","E2E.spec.ts","",""

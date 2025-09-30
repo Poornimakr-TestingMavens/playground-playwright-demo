@@ -1,0 +1,709 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "PlayGround" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9] [cursor=pointer]: PlayGround
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Home" [ref=e13] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e14]:
+            - link "Shop" [ref=e15] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=e16]:
+            - link "Components" [ref=e17] [cursor=pointer]:
+              - /url: /components
+          - listitem [ref=e18]:
+            - link "About" [ref=e19] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e22]:
+            - link "Journal" [ref=e23] [cursor=pointer]:
+              - /url: /journal
+          - listitem [ref=e24]:
+            - link "API" [ref=e25] [cursor=pointer]:
+              - /url: /apidoc
+          - generic [ref=e28]:
+            - log [ref=e30]
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - generic [ref=e34]: English
+                - combobox [ref=e37]
+              - img [ref=e41]
+    - generic [ref=e46]:
+      - generic [ref=e49]:
+        - generic [ref=e51] [cursor=pointer]:
+          - img [ref=e52] [cursor=pointer]
+          - paragraph [ref=e54] [cursor=pointer]: Shop by Category
+        - generic [ref=e55]:
+          - textbox "Search your products here" [ref=e56]
+          - img [ref=e57]
+        - generic [ref=e59] [cursor=pointer]:
+          - generic [ref=e61] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - img [ref=e64] [cursor=pointer]
+          - link "0" [ref=e66] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e67] [cursor=pointer]:
+              - img [ref=e68] [cursor=pointer]
+              - generic [ref=e70] [cursor=pointer]: "0"
+          - link "0" [ref=e71] [cursor=pointer]:
+            - /url: /wishlist
+            - generic [ref=e72] [cursor=pointer]:
+              - img [ref=e73] [cursor=pointer]
+              - generic [ref=e75] [cursor=pointer]: "0"
+      - generic [ref=e76]:
+        - link "Profile" [ref=e77] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=e78] [cursor=pointer]:
+            - generic [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+              - img [ref=e83] [cursor=pointer]
+            - paragraph [ref=e86] [cursor=pointer]: Profile
+        - link "Buy Now" [ref=e87] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e88] [cursor=pointer]:
+            - generic [ref=e89] [cursor=pointer]:
+              - img [ref=e90] [cursor=pointer]
+              - img [ref=e92] [cursor=pointer]
+            - paragraph [ref=e94] [cursor=pointer]: Buy Now
+      - generic [ref=e95]:
+        - generic [ref=e97]:
+          - generic [ref=e99]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - heading [level=1] [ref=e105]: Discover the Latest Gadgets
+                - paragraph [ref=e106]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e107] [cursor=pointer]: SHOP NOW
+              - img [ref=e109]
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - heading "Quality Tech Solutions" [level=1] [ref=e115]
+                - paragraph [ref=e116]: Transform your digital world with our state-of-the-art gadgets
+                - button "SHOP NOW" [ref=e117] [cursor=pointer]
+              - img "LG C1 OLED" [ref=e119]
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - heading [level=1] [ref=e125]: Elevate Your Digital World
+                - paragraph [ref=e126]: Discover our wide range of gadgets designed for professional tech needs
+                - button [ref=e127] [cursor=pointer]: SHOP NOW
+              - img [ref=e129]
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - heading [level=1] [ref=e135]: Discover the Latest Gadgets
+                - paragraph [ref=e136]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e137] [cursor=pointer]: SHOP NOW
+              - img [ref=e139]
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - heading [level=1] [ref=e145]: Discover the Latest Gadgets
+                - paragraph [ref=e146]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e147] [cursor=pointer]: SHOP NOW
+              - img [ref=e149]
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - heading [level=1] [ref=e155]: Quality Tech Solutions
+                - paragraph [ref=e156]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e157] [cursor=pointer]: SHOP NOW
+              - img [ref=e159]
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - heading [level=1] [ref=e165]: Elevate Your Digital World
+                - paragraph [ref=e166]: Discover our wide range of gadgets designed for professional tech needs
+                - button [ref=e167] [cursor=pointer]: SHOP NOW
+              - img [ref=e169]
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - heading [level=1] [ref=e175]: Discover the Latest Gadgets
+                - paragraph [ref=e176]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e177] [cursor=pointer]: SHOP NOW
+              - img [ref=e179]
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - heading [level=1] [ref=e185]: Discover the Latest Gadgets
+                - paragraph [ref=e186]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e187] [cursor=pointer]: SHOP NOW
+              - img [ref=e189]
+          - list [ref=e191]:
+            - listitem [ref=e192]:
+              - button [ref=e193] [cursor=pointer]
+            - listitem [ref=e194]:
+              - button [ref=e195] [cursor=pointer]
+            - listitem [ref=e196]:
+              - button [ref=e197] [cursor=pointer]
+            - listitem [ref=e198]:
+              - button [ref=e199] [cursor=pointer]
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - img [ref=e204]
+            - paragraph [ref=e212]: Two years warranty
+          - generic [ref=e213]:
+            - img [ref=e215]
+            - paragraph [ref=e217]:
+              - text: Free shipping
+              - generic [ref=e218]: Free Shipping World Wide
+          - generic [ref=e219]:
+            - img [ref=e221]
+            - paragraph [ref=e228]: Return policy in 30 days
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/55d2d711-00c3-48c2-a227-fbc871157d24-laptop1.jpeg" [ref=e233]
+              - generic [ref=e235]:
+                - heading "Laptops Sale" [level=2] [ref=e236]
+                - paragraph [ref=e237]:
+                  - text: Up to
+                  - generic [ref=e238]: 50%
+                  - text: sales for all Laptops
+                - link "Shop Now" [ref=e240] [cursor=pointer]:
+                  - /url: /shop?categories=Laptops
+                  - button "Shop Now" [ref=e241] [cursor=pointer]
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/9a453004-36b7-4022-8cc2-af1ac4cd728f-mobile1.jpeg" [ref=e245]
+                - generic [ref=e247]:
+                  - heading "Mobiles Sale" [level=2] [ref=e248]
+                  - paragraph [ref=e249]:
+                    - text: Up to
+                    - generic [ref=e250]: 40%
+                    - text: sales for all Mobiles
+                  - link "Shop Now" [ref=e252] [cursor=pointer]:
+                    - /url: /shop?categories=Mobiles
+                    - button "Shop Now" [ref=e253] [cursor=pointer]
+              - generic [ref=e254]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp" [ref=e256]
+                - generic [ref=e258]:
+                  - heading "Headsets Sale" [level=2] [ref=e259]
+                  - paragraph [ref=e260]:
+                    - text: Up to
+                    - generic [ref=e261]: 30%
+                    - text: sales for all Headsets
+                  - link "Shop Now" [ref=e263] [cursor=pointer]:
+                    - /url: /shop?categories=Headsets
+                    - button "Shop Now" [ref=e264] [cursor=pointer]
+          - generic [ref=e265]:
+            - generic [ref=e266]: New Arrivals
+            - generic [ref=e267]:
+              - img [ref=e270] [cursor=pointer]
+              - generic [ref=e273]:
+                - generic [ref=e277]:
+                  - img [ref=e279]
+                  - generic [ref=e280]:
+                    - generic [ref=e281]:
+                      - heading [level=2] [ref=e282]: Oppo Find X5 Pro
+                      - paragraph [ref=e283]: Emerald Green
+                      - paragraph [ref=e284]: $1199
+                    - generic [ref=e285]:
+                      - button [ref=e286] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e287] [cursor=pointer]
+                      - button [ref=e289] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e290] [cursor=pointer]
+                - generic [ref=e295]:
+                  - img [ref=e297]
+                  - generic [ref=e298]:
+                    - generic [ref=e299]:
+                      - heading [level=2] [ref=e300]: HyperX Cloud II Wireless
+                      - paragraph [ref=e301]: Red
+                      - paragraph [ref=e302]: $149.99
+                    - generic [ref=e303]:
+                      - button [ref=e304] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e305] [cursor=pointer]
+                      - button [ref=e307] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e308] [cursor=pointer]
+                - generic [ref=e313]:
+                  - img [ref=e315]
+                  - generic [ref=e316]:
+                    - generic [ref=e317]:
+                      - heading [level=2] [ref=e318]: Bose QuietComfort 45
+                      - paragraph [ref=e319]: Silver
+                      - paragraph [ref=e320]: $329.95
+                    - generic [ref=e321]:
+                      - button [ref=e322] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e323] [cursor=pointer]
+                      - button [ref=e325] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e326] [cursor=pointer]
+                - generic [ref=e331]:
+                  - img [ref=e333]
+                  - generic [ref=e334]:
+                    - generic [ref=e335]:
+                      - heading [level=2] [ref=e336]: Audio-Technica ATH-M50xBT
+                      - paragraph [ref=e337]: Black
+                      - paragraph [ref=e338]: $199
+                    - generic [ref=e339]:
+                      - button [ref=e340] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e341] [cursor=pointer]
+                      - button [ref=e343] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e344] [cursor=pointer]
+                - generic [ref=e349]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/6b1ef449-3790-4bea-afac-45c075c18294-tv3.jpeg" [ref=e351]
+                  - generic [ref=e352]:
+                    - generic [ref=e353]:
+                      - heading "Sony A90J OLED" [level=2] [ref=e354]
+                      - paragraph [ref=e355]: Black
+                      - paragraph [ref=e356]: $2799.99
+                    - generic [ref=e357]:
+                      - button "Add to Cart" [ref=e358] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e359] [cursor=pointer]
+                      - button "Wish List" [ref=e361] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e362] [cursor=pointer]
+                - generic [ref=e367]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/8413ce7e-eb93-4c29-8edf-c5eabafe781f-tv1.jpeg" [ref=e369]
+                  - generic [ref=e370]:
+                    - generic [ref=e371]:
+                      - heading "Samsung QN90A Neo QLED" [level=2] [ref=e372]
+                      - paragraph [ref=e373]: Titan Black
+                      - paragraph [ref=e374]: $1999.99
+                    - generic [ref=e375]:
+                      - button "Add to Cart" [ref=e376] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e377] [cursor=pointer]
+                      - button "Wish List" [ref=e379] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e380] [cursor=pointer]
+                - generic [ref=e385]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/69776f77-05c5-4b58-b868-c21808d2dfd9-tv7.webp" [ref=e387]
+                  - generic [ref=e388]:
+                    - generic [ref=e389]:
+                      - heading "Philips OLED805" [level=2] [ref=e390]
+                      - paragraph [ref=e391]: Silver
+                      - paragraph [ref=e392]: $1799.99
+                    - generic [ref=e393]:
+                      - button "Add to Cart" [ref=e394] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e395] [cursor=pointer]
+                      - button "Wish List" [ref=e397] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e398] [cursor=pointer]
+                - generic [ref=e403]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/95c92a49-dd94-4b12-9f59-c220126ea26a-laptop6.jpeg" [ref=e405]
+                  - generic [ref=e406]:
+                    - generic [ref=e407]:
+                      - heading "Microsoft Surface Laptop 4" [level=2] [ref=e408]
+                      - paragraph [ref=e409]: Platinum
+                      - paragraph [ref=e410]: $1299
+                    - generic [ref=e411]:
+                      - button "Add to Cart" [ref=e412] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e413] [cursor=pointer]
+                      - button "Wish List" [ref=e415] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e416] [cursor=pointer]
+                - generic [ref=e421]:
+                  - img [ref=e423]
+                  - generic [ref=e424]:
+                    - generic [ref=e425]:
+                      - heading [level=2] [ref=e426]: LG C1 OLED
+                      - paragraph [ref=e427]: Dark Silver
+                      - paragraph [ref=e428]: $2499.99
+                    - generic [ref=e429]:
+                      - button [ref=e430] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e431] [cursor=pointer]
+                      - button [ref=e433] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e434] [cursor=pointer]
+                - generic [ref=e439]:
+                  - img [ref=e441]
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:
+                      - heading [level=2] [ref=e444]: Sennheiser Momentum 3 Wireless
+                      - paragraph [ref=e445]: Sandy White
+                      - paragraph [ref=e446]: $399.95
+                    - generic [ref=e447]:
+                      - button [ref=e448] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e449] [cursor=pointer]
+                      - button [ref=e451] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e452] [cursor=pointer]
+                - generic [ref=e457]:
+                  - img [ref=e459]
+                  - generic [ref=e460]:
+                    - generic [ref=e461]:
+                      - heading [level=2] [ref=e462]: Oppo Find X5 Pro
+                      - paragraph [ref=e463]: Emerald Green
+                      - paragraph [ref=e464]: $1199
+                    - generic [ref=e465]:
+                      - button [ref=e466] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e467] [cursor=pointer]
+                      - button [ref=e469] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e470] [cursor=pointer]
+                - generic [ref=e475]:
+                  - img [ref=e477]
+                  - generic [ref=e478]:
+                    - generic [ref=e479]:
+                      - heading [level=2] [ref=e480]: HyperX Cloud II Wireless
+                      - paragraph [ref=e481]: Red
+                      - paragraph [ref=e482]: $149.99
+                    - generic [ref=e483]:
+                      - button [ref=e484] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e485] [cursor=pointer]
+                      - button [ref=e487] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e488] [cursor=pointer]
+                - generic [ref=e493]:
+                  - img [ref=e495]
+                  - generic [ref=e496]:
+                    - generic [ref=e497]:
+                      - heading [level=2] [ref=e498]: Bose QuietComfort 45
+                      - paragraph [ref=e499]: Silver
+                      - paragraph [ref=e500]: $329.95
+                    - generic [ref=e501]:
+                      - button [ref=e502] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e503] [cursor=pointer]
+                      - button [ref=e505] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e506] [cursor=pointer]
+                - generic [ref=e511]:
+                  - img [ref=e513]
+                  - generic [ref=e514]:
+                    - generic [ref=e515]:
+                      - heading [level=2] [ref=e516]: Audio-Technica ATH-M50xBT
+                      - paragraph [ref=e517]: Black
+                      - paragraph [ref=e518]: $199
+                    - generic [ref=e519]:
+                      - button [ref=e520] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e521] [cursor=pointer]
+                      - button [ref=e523] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e524] [cursor=pointer]
+                - generic [ref=e529]:
+                  - img [ref=e531]
+                  - generic [ref=e532]:
+                    - generic [ref=e533]:
+                      - heading [level=2] [ref=e534]: Sony A90J OLED
+                      - paragraph [ref=e535]: Black
+                      - paragraph [ref=e536]: $2799.99
+                    - generic [ref=e537]:
+                      - button [ref=e538] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e539] [cursor=pointer]
+                      - button [ref=e541] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e542] [cursor=pointer]
+                - generic [ref=e547]:
+                  - img [ref=e549]
+                  - generic [ref=e550]:
+                    - generic [ref=e551]:
+                      - heading [level=2] [ref=e552]: Samsung QN90A Neo QLED
+                      - paragraph [ref=e553]: Titan Black
+                      - paragraph [ref=e554]: $1999.99
+                    - generic [ref=e555]:
+                      - button [ref=e556] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e557] [cursor=pointer]
+                      - button [ref=e559] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e560] [cursor=pointer]
+                - generic [ref=e565]:
+                  - img [ref=e567]
+                  - generic [ref=e568]:
+                    - generic [ref=e569]:
+                      - heading [level=2] [ref=e570]: Philips OLED805
+                      - paragraph [ref=e571]: Silver
+                      - paragraph [ref=e572]: $1799.99
+                    - generic [ref=e573]:
+                      - button [ref=e574] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e575] [cursor=pointer]
+                      - button [ref=e577] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e578] [cursor=pointer]
+                - generic [ref=e583]:
+                  - img [ref=e585]
+                  - generic [ref=e586]:
+                    - generic [ref=e587]:
+                      - heading [level=2] [ref=e588]: Microsoft Surface Laptop 4
+                      - paragraph [ref=e589]: Platinum
+                      - paragraph [ref=e590]: $1299
+                    - generic [ref=e591]:
+                      - button [ref=e592] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e593] [cursor=pointer]
+                      - button [ref=e595] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e596] [cursor=pointer]
+                - generic [ref=e601]:
+                  - img [ref=e603]
+                  - generic [ref=e604]:
+                    - generic [ref=e605]:
+                      - heading [level=2] [ref=e606]: LG C1 OLED
+                      - paragraph [ref=e607]: Dark Silver
+                      - paragraph [ref=e608]: $2499.99
+                    - generic [ref=e609]:
+                      - button [ref=e610] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e611] [cursor=pointer]
+                      - button [ref=e613] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e614] [cursor=pointer]
+                - generic [ref=e619]:
+                  - img [ref=e621]
+                  - generic [ref=e622]:
+                    - generic [ref=e623]:
+                      - heading [level=2] [ref=e624]: Sennheiser Momentum 3 Wireless
+                      - paragraph [ref=e625]: Sandy White
+                      - paragraph [ref=e626]: $399.95
+                    - generic [ref=e627]:
+                      - button [ref=e628] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e629] [cursor=pointer]
+                      - button [ref=e631] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e632] [cursor=pointer]
+                - generic [ref=e637]:
+                  - img [ref=e639]
+                  - generic [ref=e640]:
+                    - generic [ref=e641]:
+                      - heading [level=2] [ref=e642]: Oppo Find X5 Pro
+                      - paragraph [ref=e643]: Emerald Green
+                      - paragraph [ref=e644]: $1199
+                    - generic [ref=e645]:
+                      - button [ref=e646] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e647] [cursor=pointer]
+                      - button [ref=e649] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e650] [cursor=pointer]
+                - generic [ref=e655]:
+                  - img [ref=e657]
+                  - generic [ref=e658]:
+                    - generic [ref=e659]:
+                      - heading [level=2] [ref=e660]: HyperX Cloud II Wireless
+                      - paragraph [ref=e661]: Red
+                      - paragraph [ref=e662]: $149.99
+                    - generic [ref=e663]:
+                      - button [ref=e664] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e665] [cursor=pointer]
+                      - button [ref=e667] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e668] [cursor=pointer]
+                - generic [ref=e673]:
+                  - img [ref=e675]
+                  - generic [ref=e676]:
+                    - generic [ref=e677]:
+                      - heading [level=2] [ref=e678]: Bose QuietComfort 45
+                      - paragraph [ref=e679]: Silver
+                      - paragraph [ref=e680]: $329.95
+                    - generic [ref=e681]:
+                      - button [ref=e682] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e683] [cursor=pointer]
+                      - button [ref=e685] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e686] [cursor=pointer]
+                - generic [ref=e691]:
+                  - img [ref=e693]
+                  - generic [ref=e694]:
+                    - generic [ref=e695]:
+                      - heading [level=2] [ref=e696]: Audio-Technica ATH-M50xBT
+                      - paragraph [ref=e697]: Black
+                      - paragraph [ref=e698]: $199
+                    - generic [ref=e699]:
+                      - button [ref=e700] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e701] [cursor=pointer]
+                      - button [ref=e703] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e704] [cursor=pointer]
+              - img [ref=e708] [cursor=pointer]
+          - generic [ref=e710]:
+            - generic [ref=e711]: Our Bestsellers
+            - generic [ref=e712]:
+              - generic [ref=e713]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/57ad85cc-c903-4475-99e6-0546ba4aea77-headset4.jpeg" [ref=e715]
+                - generic [ref=e716]:
+                  - generic [ref=e717]:
+                    - heading "Jabra Elite 85h" [level=2] [ref=e718]
+                    - paragraph [ref=e719]: Navy
+                    - paragraph [ref=e720]: $249.99
+                  - generic [ref=e721]:
+                    - button "Add to Cart" [ref=e722] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e723] [cursor=pointer]
+                    - button "Wish List" [ref=e725] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e726] [cursor=pointer]
+              - generic [ref=e728]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/efeae6fe-f9b3-4324-bfb6-3f997c54d583-tv4.webp" [ref=e730]
+                - generic [ref=e731]:
+                  - generic [ref=e732]:
+                    - heading "TCL 6-Series Mini-LED" [level=2] [ref=e733]
+                    - paragraph [ref=e734]: Graphite
+                    - paragraph [ref=e735]: $1099.99
+                  - generic [ref=e736]:
+                    - button "Add to Cart" [ref=e737] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e738] [cursor=pointer]
+                    - button "Wish List" [ref=e740] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e741] [cursor=pointer]
+              - generic [ref=e743]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/b72ef43c-2192-458e-aad3-1360a3c7540a-mobile2.jpeg" [ref=e745]
+                - generic [ref=e746]:
+                  - generic [ref=e747]:
+                    - heading "Samsung Galaxy S22 Ultra" [level=2] [ref=e748]
+                    - paragraph [ref=e749]: Phantom Black
+                    - paragraph [ref=e750]: $1199.99
+                  - generic [ref=e751]:
+                    - button "Add to Cart" [ref=e752] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e753] [cursor=pointer]
+                    - button "Wish List" [ref=e755] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e756] [cursor=pointer]
+              - generic [ref=e758]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/3e111ad8-27ab-407c-b6b0-3988f3a74f31-tv10.webp" [ref=e760]
+                - generic [ref=e761]:
+                  - generic [ref=e762]:
+                    - heading "Toshiba Fire TV C350 Series" [level=2] [ref=e763]
+                    - paragraph [ref=e764]: Slate Gray
+                    - paragraph [ref=e765]: $599.99
+                  - generic [ref=e766]:
+                    - button "Add to Cart" [ref=e767] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e768] [cursor=pointer]
+                    - button "Wish List" [ref=e770] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e771] [cursor=pointer]
+              - generic [ref=e773]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/850239b6-3a75-41ba-a21c-723d839ff04d-laptop2.jpeg" [ref=e775]
+                - generic [ref=e776]:
+                  - generic [ref=e777]:
+                    - heading "MacBook Pro 16" [level=2] [ref=e778]
+                    - paragraph [ref=e779]: Space Gray
+                    - paragraph [ref=e780]: $2399
+                  - generic [ref=e781]:
+                    - button "Add to Cart" [ref=e782] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e783] [cursor=pointer]
+                    - button "Wish List" [ref=e785] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e786] [cursor=pointer]
+              - generic [ref=e788]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/29f63573-7f3d-4283-8204-d1ca99999db0-mobile8.webp" [ref=e790]
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - heading "Oppo Find X5 Pro" [level=2] [ref=e793]
+                    - paragraph [ref=e794]: Emerald Green
+                    - paragraph [ref=e795]: $1199
+                  - generic [ref=e796]:
+                    - button "Add to Cart" [ref=e797] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e798] [cursor=pointer]
+                    - button "Wish List" [ref=e800] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e801] [cursor=pointer]
+              - generic [ref=e803]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/31d0e4dc-d27a-46ef-a0f9-9f7d66eb4e76-mobile9.webp" [ref=e805]
+                - generic [ref=e806]:
+                  - generic [ref=e807]:
+                    - heading "Realme GT 2 Pro" [level=2] [ref=e808]
+                    - paragraph [ref=e809]: Paper White
+                    - paragraph [ref=e810]: $799
+                  - generic [ref=e811]:
+                    - button "Add to Cart" [ref=e812] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e813] [cursor=pointer]
+                    - button "Wish List" [ref=e815] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e816] [cursor=pointer]
+              - generic [ref=e818]:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/7aa14462-aba4-489e-90a3-85006d01f8d2-mobile6.webp" [ref=e820]
+                - generic [ref=e821]:
+                  - generic [ref=e822]:
+                    - heading "Sony Xperia 1 III" [level=2] [ref=e823]
+                    - paragraph [ref=e824]: Frosted Black
+                    - paragraph [ref=e825]: $1299.99
+                  - generic [ref=e826]:
+                    - button "Add to Cart" [ref=e827] [cursor=pointer]:
+                      - text: Add to Cart
+                      - img [ref=e828] [cursor=pointer]
+                    - button "Wish List" [ref=e830] [cursor=pointer]:
+                      - text: Wish List
+                      - img [ref=e831] [cursor=pointer]
+          - link "/assets/productOfTheYear-BbQC5mcT.webp Product of The year Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat cupiditate modi amet! Facilis, aperiam quaerat. Shop Now" [ref=e833] [cursor=pointer]:
+            - /url: /shop
+            - generic [ref=e834] [cursor=pointer]:
+              - img "/assets/productOfTheYear-BbQC5mcT.webp" [ref=e835] [cursor=pointer]
+              - generic [ref=e836] [cursor=pointer]:
+                - heading "Product of The year" [level=1] [ref=e837] [cursor=pointer]
+                - paragraph [ref=e838] [cursor=pointer]: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat cupiditate modi amet! Facilis, aperiam quaerat.
+                - button "Shop Now" [ref=e839] [cursor=pointer]
+      - generic [ref=e841]:
+        - generic [ref=e842]:
+          - heading "More about PlayGround" [level=3] [ref=e843]
+          - generic [ref=e844]:
+            - paragraph [ref=e845]: Sign up for our newsletter to receive updates and news.
+            - list [ref=e846]:
+              - link [ref=e847] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e848] [cursor=pointer]:
+                  - img [ref=e849] [cursor=pointer]
+              - link [ref=e851] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e852] [cursor=pointer]:
+                  - img [ref=e853] [cursor=pointer]
+              - link [ref=e855] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e856] [cursor=pointer]:
+                  - img [ref=e857] [cursor=pointer]
+              - link [ref=e859] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e860] [cursor=pointer]:
+                  - img [ref=e861] [cursor=pointer]
+        - generic [ref=e863]:
+          - heading "Shop" [level=3] [ref=e864]
+          - list [ref=e865]:
+            - listitem [ref=e866] [cursor=pointer]: Accesories
+            - listitem [ref=e867] [cursor=pointer]: Clothes
+            - listitem [ref=e868] [cursor=pointer]: Electronics
+            - listitem [ref=e869] [cursor=pointer]: Home appliances
+            - listitem [ref=e870] [cursor=pointer]: New Arrivals
+        - generic [ref=e871]:
+          - heading "Your account" [level=3] [ref=e872]
+          - list [ref=e873]:
+            - listitem [ref=e874] [cursor=pointer]: Profile
+            - listitem [ref=e875] [cursor=pointer]: Orders
+            - listitem [ref=e876] [cursor=pointer]: Addresses
+            - listitem [ref=e877] [cursor=pointer]: Account Details
+            - listitem [ref=e878] [cursor=pointer]: Payment Options
+        - generic [ref=e879]:
+          - heading "Subscribe to our newsletter." [level=3] [ref=e880]
+          - generic [ref=e881]:
+            - paragraph [ref=e882]: Sign up for our newsletter to receive updates and news.
+            - generic [ref=e883]:
+              - textbox "Insert your email ...*" [ref=e885]
+              - button "Subscribe" [ref=e886] [cursor=pointer]
+            - img "/assets/payment-BAywfhtf.png" [ref=e887]
+      - paragraph [ref=e890]:
+        - img [ref=e892]
+        - text: Copyright 2024 | PlayGround | All Rights Reserved |
+        - link "Powered by Testing Mavens" [ref=e894] [cursor=pointer]:
+          - /url: https://www.testingmavens.com/
+          - generic [ref=e895] [cursor=pointer]: Powered by Testing Mavens
+  - img [ref=e898]
+```

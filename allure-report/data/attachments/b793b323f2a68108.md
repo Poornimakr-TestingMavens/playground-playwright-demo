@@ -1,0 +1,592 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "PlayGround" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9] [cursor=pointer]: PlayGround
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Home" [ref=e13] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e14]:
+            - link "Shop" [ref=e15] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=e16]:
+            - link "Components" [ref=e17] [cursor=pointer]:
+              - /url: /components
+          - listitem [ref=e18]:
+            - link "About" [ref=e19] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e22]:
+            - link "Journal" [ref=e23] [cursor=pointer]:
+              - /url: /journal
+          - listitem [ref=e24]:
+            - link "API" [ref=e25] [cursor=pointer]:
+              - /url: /apidoc
+          - generic [ref=e28]:
+            - log [ref=e30]
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - generic [ref=e34]: English
+                - combobox [ref=e37]
+              - img [ref=e41]
+    - generic [ref=e46]:
+      - generic [ref=e49]:
+        - generic [ref=e51] [cursor=pointer]:
+          - img [ref=e52] [cursor=pointer]
+          - paragraph [ref=e54] [cursor=pointer]: Shop by Category
+        - generic [ref=e55]:
+          - textbox "Search your products here" [ref=e56]
+          - img [ref=e57]
+        - generic [ref=e59] [cursor=pointer]:
+          - generic [ref=e61] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - img [ref=e64] [cursor=pointer]
+          - link "0" [ref=e66] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e67] [cursor=pointer]:
+              - img [ref=e68] [cursor=pointer]
+              - generic [ref=e70] [cursor=pointer]: "0"
+      - generic [ref=e71]:
+        - link "Profile" [ref=e72] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=e73] [cursor=pointer]:
+            - generic [ref=e74] [cursor=pointer]:
+              - img [ref=e75] [cursor=pointer]
+              - img [ref=e78] [cursor=pointer]
+            - paragraph [ref=e81] [cursor=pointer]: Profile
+        - link "Buy Now" [ref=e82] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e83] [cursor=pointer]:
+            - generic [ref=e84] [cursor=pointer]:
+              - img [ref=e85] [cursor=pointer]
+              - img [ref=e87] [cursor=pointer]
+            - paragraph [ref=e89] [cursor=pointer]: Buy Now
+      - generic [ref=e90]:
+        - generic [ref=e92]:
+          - generic [ref=e94]:
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - heading [level=1] [ref=e100]: Efficiency Redefined
+                - paragraph [ref=e101]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e102] [cursor=pointer]: SHOP NOW
+              - img [ref=e104]
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - heading "Quality Tech Solutions" [level=1] [ref=e110]
+                - paragraph [ref=e111]: Transform your digital world with our state-of-the-art gadgets
+                - button "SHOP NOW" [ref=e112] [cursor=pointer]
+              - img "MacBook Pro 16" [ref=e114]
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - heading [level=1] [ref=e120]: Discover the Latest Gadgets
+                - paragraph [ref=e121]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e122] [cursor=pointer]: SHOP NOW
+              - img [ref=e124]
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - heading [level=1] [ref=e130]: Quality Tech Solutions
+                - paragraph [ref=e131]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e132] [cursor=pointer]: SHOP NOW
+              - img [ref=e134]
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - heading [level=1] [ref=e140]: Efficiency Redefined
+                - paragraph [ref=e141]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e142] [cursor=pointer]: SHOP NOW
+              - img [ref=e144]
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading [level=1] [ref=e150]: Quality Tech Solutions
+                - paragraph [ref=e151]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e152] [cursor=pointer]: SHOP NOW
+              - img [ref=e154]
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - heading [level=1] [ref=e160]: Discover the Latest Gadgets
+                - paragraph [ref=e161]: Maximize productivity with our advanced devices and high-quality accessories
+                - button [ref=e162] [cursor=pointer]: SHOP NOW
+              - img [ref=e164]
+            - generic [ref=e168]:
+              - generic [ref=e169]:
+                - heading [level=1] [ref=e170]: Quality Tech Solutions
+                - paragraph [ref=e171]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e172] [cursor=pointer]: SHOP NOW
+              - img [ref=e174]
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - heading [level=1] [ref=e180]: Efficiency Redefined
+                - paragraph [ref=e181]: Transform your digital world with our state-of-the-art gadgets
+                - button [ref=e182] [cursor=pointer]: SHOP NOW
+              - img [ref=e184]
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - button [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - button [ref=e190] [cursor=pointer]
+            - listitem [ref=e191]:
+              - button [ref=e192] [cursor=pointer]
+            - listitem [ref=e193]:
+              - button [ref=e194] [cursor=pointer]
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - img [ref=e199]
+            - paragraph [ref=e207]: Two years warranty
+          - generic [ref=e208]:
+            - img [ref=e210]
+            - paragraph [ref=e212]:
+              - text: Free shipping
+              - generic [ref=e213]: Free Shipping World Wide
+          - generic [ref=e214]:
+            - img [ref=e216]
+            - paragraph [ref=e223]: Return policy in 30 days
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - generic:
+                - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp"
+              - generic [ref=e228]:
+                - heading "Headsets Sale" [level=2] [ref=e229]
+                - paragraph [ref=e230]:
+                  - text: Up to
+                  - generic [ref=e231]: 50%
+                  - text: sales for all Headsets
+                - link "Shop Now" [ref=e233] [cursor=pointer]:
+                  - /url: /shop?categories=Headsets
+                  - button "Shop Now" [ref=e234] [cursor=pointer]
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - generic:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/9a453004-36b7-4022-8cc2-af1ac4cd728f-mobile1.jpeg"
+                - generic [ref=e238]:
+                  - heading "Mobiles Sale" [level=2] [ref=e239]
+                  - paragraph [ref=e240]:
+                    - text: Up to
+                    - generic [ref=e241]: 40%
+                    - text: sales for all Mobiles
+                  - link "Shop Now" [ref=e243] [cursor=pointer]:
+                    - /url: /shop?categories=Mobiles
+                    - button "Shop Now" [ref=e244] [cursor=pointer]
+              - generic [ref=e245]:
+                - generic:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/8413ce7e-eb93-4c29-8edf-c5eabafe781f-tv1.jpeg"
+                - generic [ref=e247]:
+                  - heading "TVs Sale" [level=2] [ref=e248]
+                  - paragraph [ref=e249]:
+                    - text: Up to
+                    - generic [ref=e250]: 30%
+                    - text: sales for all TVs
+                  - link "Shop Now" [ref=e252] [cursor=pointer]:
+                    - /url: /shop?categories=TVs
+                    - button "Shop Now" [ref=e253] [cursor=pointer]
+          - generic [ref=e254]:
+            - generic [ref=e255]: New Arrivals
+            - generic [ref=e256]:
+              - img [ref=e259] [cursor=pointer]
+              - generic [ref=e262]:
+                - generic [ref=e266]:
+                  - img [ref=e268]
+                  - generic [ref=e269]:
+                    - generic [ref=e270]:
+                      - heading [level=2] [ref=e271]: Huawei P50 Pro
+                      - paragraph [ref=e272]: Golden Black
+                      - paragraph [ref=e273]: $1199
+                    - generic [ref=e274]:
+                      - button [ref=e275] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e276] [cursor=pointer]
+                      - button [ref=e278] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e279] [cursor=pointer]
+                - generic [ref=e284]:
+                  - img [ref=e286]
+                  - generic [ref=e287]:
+                    - generic [ref=e288]:
+                      - heading [level=2] [ref=e289]: OnePlus 10 Pro
+                      - paragraph [ref=e290]: Morning Mist
+                      - paragraph [ref=e291]: $899
+                    - generic [ref=e292]:
+                      - button [ref=e293] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e294] [cursor=pointer]
+                      - button [ref=e296] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e297] [cursor=pointer]
+                - generic [ref=e302]:
+                  - img [ref=e304]
+                  - generic [ref=e305]:
+                    - generic [ref=e306]:
+                      - heading [level=2] [ref=e307]: Acer Predator Helios 300
+                      - paragraph [ref=e308]: Abyssal Black
+                      - paragraph [ref=e309]: $1299
+                    - generic [ref=e310]:
+                      - button [ref=e311] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e312] [cursor=pointer]
+                      - button [ref=e314] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e315] [cursor=pointer]
+                - generic [ref=e320]:
+                  - img [ref=e322]
+                  - generic [ref=e323]:
+                    - generic [ref=e324]:
+                      - heading [level=2] [ref=e325]: Corsair Virtuoso RGB Wireless XT
+                      - paragraph [ref=e326]: White
+                      - paragraph [ref=e327]: $269.99
+                    - generic [ref=e328]:
+                      - button [ref=e329] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e330] [cursor=pointer]
+                      - button [ref=e332] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e333] [cursor=pointer]
+                - generic [ref=e338]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/29f63573-7f3d-4283-8204-d1ca99999db0-mobile8.webp" [ref=e340]
+                  - generic [ref=e341]:
+                    - generic [ref=e342]:
+                      - heading "Oppo Find X5 Pro" [level=2] [ref=e343]
+                      - paragraph [ref=e344]: Emerald Green
+                      - paragraph [ref=e345]: $1199
+                    - generic [ref=e346]:
+                      - button "Add to Cart" [ref=e347] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e348] [cursor=pointer]
+                      - button "Wish List" [ref=e350] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e351] [cursor=pointer]
+                - generic [ref=e356]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/9fa45777-f1b2-450d-8ccc-12f1ded275f5-laptop7.jpeg" [ref=e358]
+                  - generic [ref=e359]:
+                    - generic [ref=e360]:
+                      - heading "Razer Blade 15" [level=2] [ref=e361]
+                      - paragraph [ref=e362]: Mercury White
+                      - paragraph [ref=e363]: $1999.99
+                    - generic [ref=e364]:
+                      - button "Add to Cart" [ref=e365] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e366] [cursor=pointer]
+                      - button "Wish List" [ref=e368] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e369] [cursor=pointer]
+                - generic [ref=e374]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/101515ae-edbb-47f1-8702-7b221f5463bb-headset8.jpeg" [ref=e376]
+                  - generic [ref=e377]:
+                    - generic [ref=e378]:
+                      - heading "Razer BlackShark V2 Pro" [level=2] [ref=e379]
+                      - paragraph [ref=e380]: Black
+                      - paragraph [ref=e381]: $179.99
+                    - generic [ref=e382]:
+                      - button "Add to Cart" [ref=e383] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e384] [cursor=pointer]
+                      - button "Wish List" [ref=e386] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e387] [cursor=pointer]
+                - generic [ref=e392]:
+                  - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/db8b7fdd-5ded-4537-918e-aa5c29067174-laptop4.jpeg" [ref=e394]
+                  - generic [ref=e395]:
+                    - generic [ref=e396]:
+                      - heading "Lenovo ThinkPad X1 Carbon" [level=2] [ref=e397]
+                      - paragraph [ref=e398]: Black
+                      - paragraph [ref=e399]: $1599
+                    - generic [ref=e400]:
+                      - button "Add to Cart" [ref=e401] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e402] [cursor=pointer]
+                      - button "Wish List" [ref=e404] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e405] [cursor=pointer]
+                - generic [ref=e410]:
+                  - img [ref=e412]
+                  - generic [ref=e413]:
+                    - generic [ref=e414]:
+                      - heading [level=2] [ref=e415]: Asus ZenBook 14
+                      - paragraph [ref=e416]: Royal Blue
+                      - paragraph [ref=e417]: $1099
+                    - generic [ref=e418]:
+                      - button [ref=e419] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e420] [cursor=pointer]
+                      - button [ref=e422] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e423] [cursor=pointer]
+                - generic [ref=e428]:
+                  - img [ref=e430]
+                  - generic [ref=e431]:
+                    - generic [ref=e432]:
+                      - heading [level=2] [ref=e433]: Dell XPS 13
+                      - paragraph [ref=e434]: Silver
+                      - paragraph [ref=e435]: $1299
+                    - generic [ref=e436]:
+                      - button [ref=e437] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e438] [cursor=pointer]
+                      - button [ref=e440] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e441] [cursor=pointer]
+                - generic [ref=e446]:
+                  - img [ref=e448]
+                  - generic [ref=e449]:
+                    - generic [ref=e450]:
+                      - heading [level=2] [ref=e451]: Huawei P50 Pro
+                      - paragraph [ref=e452]: Golden Black
+                      - paragraph [ref=e453]: $1199
+                    - generic [ref=e454]:
+                      - button [ref=e455] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e456] [cursor=pointer]
+                      - button [ref=e458] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e459] [cursor=pointer]
+                - generic [ref=e464]:
+                  - img [ref=e466]
+                  - generic [ref=e467]:
+                    - generic [ref=e468]:
+                      - heading [level=2] [ref=e469]: OnePlus 10 Pro
+                      - paragraph [ref=e470]: Morning Mist
+                      - paragraph [ref=e471]: $899
+                    - generic [ref=e472]:
+                      - button [ref=e473] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e474] [cursor=pointer]
+                      - button [ref=e476] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e477] [cursor=pointer]
+                - generic [ref=e482]:
+                  - img [ref=e484]
+                  - generic [ref=e485]:
+                    - generic [ref=e486]:
+                      - heading [level=2] [ref=e487]: Acer Predator Helios 300
+                      - paragraph [ref=e488]: Abyssal Black
+                      - paragraph [ref=e489]: $1299
+                    - generic [ref=e490]:
+                      - button [ref=e491] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e492] [cursor=pointer]
+                      - button [ref=e494] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e495] [cursor=pointer]
+                - generic [ref=e500]:
+                  - img [ref=e502]
+                  - generic [ref=e503]:
+                    - generic [ref=e504]:
+                      - heading [level=2] [ref=e505]: Corsair Virtuoso RGB Wireless XT
+                      - paragraph [ref=e506]: White
+                      - paragraph [ref=e507]: $269.99
+                    - generic [ref=e508]:
+                      - button [ref=e509] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e510] [cursor=pointer]
+                      - button [ref=e512] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e513] [cursor=pointer]
+                - generic [ref=e518]:
+                  - img [ref=e520]
+                  - generic [ref=e521]:
+                    - generic [ref=e522]:
+                      - heading [level=2] [ref=e523]: Oppo Find X5 Pro
+                      - paragraph [ref=e524]: Emerald Green
+                      - paragraph [ref=e525]: $1199
+                    - generic [ref=e526]:
+                      - button [ref=e527] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e528] [cursor=pointer]
+                      - button [ref=e530] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e531] [cursor=pointer]
+                - generic [ref=e536]:
+                  - img [ref=e538]
+                  - generic [ref=e539]:
+                    - generic [ref=e540]:
+                      - heading [level=2] [ref=e541]: Razer Blade 15
+                      - paragraph [ref=e542]: Mercury White
+                      - paragraph [ref=e543]: $1999.99
+                    - generic [ref=e544]:
+                      - button [ref=e545] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e546] [cursor=pointer]
+                      - button [ref=e548] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e549] [cursor=pointer]
+                - generic [ref=e554]:
+                  - img [ref=e556]
+                  - generic [ref=e557]:
+                    - generic [ref=e558]:
+                      - heading [level=2] [ref=e559]: Razer BlackShark V2 Pro
+                      - paragraph [ref=e560]: Black
+                      - paragraph [ref=e561]: $179.99
+                    - generic [ref=e562]:
+                      - button [ref=e563] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e564] [cursor=pointer]
+                      - button [ref=e566] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e567] [cursor=pointer]
+                - generic [ref=e572]:
+                  - img [ref=e574]
+                  - generic [ref=e575]:
+                    - generic [ref=e576]:
+                      - heading [level=2] [ref=e577]: Lenovo ThinkPad X1 Carbon
+                      - paragraph [ref=e578]: Black
+                      - paragraph [ref=e579]: $1599
+                    - generic [ref=e580]:
+                      - button [ref=e581] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e582] [cursor=pointer]
+                      - button [ref=e584] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e585] [cursor=pointer]
+                - generic [ref=e590]:
+                  - img [ref=e592]
+                  - generic [ref=e593]:
+                    - generic [ref=e594]:
+                      - heading [level=2] [ref=e595]: Asus ZenBook 14
+                      - paragraph [ref=e596]: Royal Blue
+                      - paragraph [ref=e597]: $1099
+                    - generic [ref=e598]:
+                      - button [ref=e599] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e600] [cursor=pointer]
+                      - button [ref=e602] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e603] [cursor=pointer]
+                - generic [ref=e608]:
+                  - img [ref=e610]
+                  - generic [ref=e611]:
+                    - generic [ref=e612]:
+                      - heading [level=2] [ref=e613]: Dell XPS 13
+                      - paragraph [ref=e614]: Silver
+                      - paragraph [ref=e615]: $1299
+                    - generic [ref=e616]:
+                      - button [ref=e617] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e618] [cursor=pointer]
+                      - button [ref=e620] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e621] [cursor=pointer]
+                - generic [ref=e626]:
+                  - img [ref=e628]
+                  - generic [ref=e629]:
+                    - generic [ref=e630]:
+                      - heading [level=2] [ref=e631]: Huawei P50 Pro
+                      - paragraph [ref=e632]: Golden Black
+                      - paragraph [ref=e633]: $1199
+                    - generic [ref=e634]:
+                      - button [ref=e635] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e636] [cursor=pointer]
+                      - button [ref=e638] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e639] [cursor=pointer]
+                - generic [ref=e644]:
+                  - img [ref=e646]
+                  - generic [ref=e647]:
+                    - generic [ref=e648]:
+                      - heading [level=2] [ref=e649]: OnePlus 10 Pro
+                      - paragraph [ref=e650]: Morning Mist
+                      - paragraph [ref=e651]: $899
+                    - generic [ref=e652]:
+                      - button [ref=e653] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e654] [cursor=pointer]
+                      - button [ref=e656] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e657] [cursor=pointer]
+                - generic [ref=e662]:
+                  - img [ref=e664]
+                  - generic [ref=e665]:
+                    - generic [ref=e666]:
+                      - heading [level=2] [ref=e667]: Acer Predator Helios 300
+                      - paragraph [ref=e668]: Abyssal Black
+                      - paragraph [ref=e669]: $1299
+                    - generic [ref=e670]:
+                      - button [ref=e671] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e672] [cursor=pointer]
+                      - button [ref=e674] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e675] [cursor=pointer]
+                - generic [ref=e680]:
+                  - img [ref=e682]
+                  - generic [ref=e683]:
+                    - generic [ref=e684]:
+                      - heading [level=2] [ref=e685]: Corsair Virtuoso RGB Wireless XT
+                      - paragraph [ref=e686]: White
+                      - paragraph [ref=e687]: $269.99
+                    - generic [ref=e688]:
+                      - button [ref=e689] [cursor=pointer]:
+                        - text: Add to Cart
+                        - img [ref=e690] [cursor=pointer]
+                      - button [ref=e692] [cursor=pointer]:
+                        - text: Wish List
+                        - img [ref=e693] [cursor=pointer]
+              - img [ref=e697] [cursor=pointer]
+          - link "/assets/productOfTheYear-BbQC5mcT.webp Product of The year Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat cupiditate modi amet! Facilis, aperiam quaerat. Shop Now" [ref=e699] [cursor=pointer]:
+            - /url: /shop
+            - generic [ref=e700] [cursor=pointer]:
+              - img "/assets/productOfTheYear-BbQC5mcT.webp" [ref=e701] [cursor=pointer]
+              - generic [ref=e702] [cursor=pointer]:
+                - heading "Product of The year" [level=1] [ref=e703] [cursor=pointer]
+                - paragraph [ref=e704] [cursor=pointer]: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat cupiditate modi amet! Facilis, aperiam quaerat.
+                - button "Shop Now" [ref=e705] [cursor=pointer]
+      - generic [ref=e707]:
+        - generic [ref=e708]:
+          - heading "More about PlayGround" [level=3] [ref=e709]
+          - generic [ref=e710]:
+            - paragraph [ref=e711]: Sign up for our newsletter to receive updates and news.
+            - list [ref=e712]:
+              - link [ref=e713] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e714] [cursor=pointer]:
+                  - img [ref=e715] [cursor=pointer]
+              - link [ref=e717] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e718] [cursor=pointer]:
+                  - img [ref=e719] [cursor=pointer]
+              - link [ref=e721] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e722] [cursor=pointer]:
+                  - img [ref=e723] [cursor=pointer]
+              - link [ref=e725] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e726] [cursor=pointer]:
+                  - img [ref=e727] [cursor=pointer]
+        - generic [ref=e729]:
+          - heading "Shop" [level=3] [ref=e730]
+          - list [ref=e731]:
+            - listitem [ref=e732] [cursor=pointer]: Accesories
+            - listitem [ref=e733] [cursor=pointer]: Clothes
+            - listitem [ref=e734] [cursor=pointer]: Electronics
+            - listitem [ref=e735] [cursor=pointer]: Home appliances
+            - listitem [ref=e736] [cursor=pointer]: New Arrivals
+        - generic [ref=e737]:
+          - heading "Your account" [level=3] [ref=e738]
+          - list [ref=e739]:
+            - listitem [ref=e740] [cursor=pointer]: Profile
+            - listitem [ref=e741] [cursor=pointer]: Orders
+            - listitem [ref=e742] [cursor=pointer]: Addresses
+            - listitem [ref=e743] [cursor=pointer]: Account Details
+            - listitem [ref=e744] [cursor=pointer]: Payment Options
+        - generic [ref=e745]:
+          - heading "Subscribe to our newsletter." [level=3] [ref=e746]
+          - generic [ref=e747]:
+            - paragraph [ref=e748]: Sign up for our newsletter to receive updates and news.
+            - generic [ref=e749]:
+              - textbox "Insert your email ...*" [ref=e751]
+              - button "Subscribe" [ref=e752] [cursor=pointer]
+            - img "/assets/payment-BAywfhtf.png" [ref=e753]
+      - paragraph [ref=e756]:
+        - img [ref=e758]
+        - text: Copyright 2024 | PlayGround | All Rights Reserved |
+        - link "Powered by Testing Mavens" [ref=e760] [cursor=pointer]:
+          - /url: https://www.testingmavens.com/
+          - generic [ref=e761] [cursor=pointer]: Powered by Testing Mavens
+  - img [ref=e764]
+```

@@ -1,0 +1,8 @@
+Clicked on Shop By Category link
+Selecting category: Headsets
+Adding Sony WH-1000XM4 from Headsets to wishlist
+Unchecking category: Headsets
+Selecting category: Laptops
+Adding Dell XPS 13 from Laptops to wishlist
+Expected products: [ 'Sony WH-1000XM4', 'Dell XPS 13' ]
+Visible products: [ 'Sony WH-1000XM4', 'Sony WH-1000XM4' ]

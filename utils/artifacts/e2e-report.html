@@ -1,0 +1,65 @@
+
+  <html>
+    <head>
+      <title>E2E Test Report</title>
+      <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; color: #333; padding: 20px; }
+        h1 { color: #1976d2; }
+        .step { padding: 10px; margin: 10px 0; border-left: 4px solid; background: #fff; cursor: pointer; }
+        .PASSED { border-color: #388e3c; }
+        .FAILED { border-color: #d32f2f; background: #fff3f3; }
+        .timestamp { font-size: 0.85em; color: #666; }
+        .status { font-weight: bold; }
+        .details { display: none; margin-top: 5px; padding: 5px; background: #f1f1f1; font-family: monospace; white-space: pre-wrap; }
+      </style>
+      <script>
+        function toggleDetails(id) {
+          const el = document.getElementById(id);
+          if(el.style.display === 'none') el.style.display = 'block';
+          else el.style.display = 'none';
+        }
+      </script>
+    </head>
+    <body>
+      <h1>End-to-End Purchase Flow Report</h1>
+      
+      
+        <div class="step FAILED" onclick="toggleDetails('details-0')">
+          <strong>Step:</strong> Wishlist &nbsp;|&nbsp;
+          <strong>Status:</strong> <span class="status">FAILED</span> &nbsp;|&nbsp;
+          <span class="timestamp">29/9/2025, 8:24:24 pm</span>
+          <div id="details-0" class="details">
+            <strong>Message:</strong> Failed to add products to wishlist.
+          </div>
+        </div>
+      
+        <div class="step FAILED" onclick="toggleDetails('details-1')">
+          <strong>Step:</strong> Cart - Add Best Sellers &nbsp;|&nbsp;
+          <strong>Status:</strong> <span class="status">FAILED</span> &nbsp;|&nbsp;
+          <span class="timestamp">29/9/2025, 8:24:24 pm</span>
+          <div id="details-1" class="details">
+            <strong>Message:</strong> Failed to add Best Sellers products to cart.
+          </div>
+        </div>
+      
+        <div class="step FAILED" onclick="toggleDetails('details-2')">
+          <strong>Step:</strong> Cart - Remove Item &nbsp;|&nbsp;
+          <strong>Status:</strong> <span class="status">FAILED</span> &nbsp;|&nbsp;
+          <span class="timestamp">29/9/2025, 8:24:24 pm</span>
+          <div id="details-2" class="details">
+            <strong>Message:</strong> Failed to remove item from cart.
+          </div>
+        </div>
+      
+        <div class="step FAILED" onclick="toggleDetails('details-3')">
+          <strong>Step:</strong> Checkout Navigation &nbsp;|&nbsp;
+          <strong>Status:</strong> <span class="status">FAILED</span> &nbsp;|&nbsp;
+          <span class="timestamp">29/9/2025, 8:24:24 pm</span>
+          <div id="details-3" class="details">
+            <strong>Message:</strong> Failed to open checkout page after clicking proceed.
+          </div>
+        </div>
+      
+    </body>
+  </html>
+  

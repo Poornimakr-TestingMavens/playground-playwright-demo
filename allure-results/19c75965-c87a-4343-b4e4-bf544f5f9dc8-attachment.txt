@@ -1,0 +1,1 @@
+E2E report generated: C:\Projects\playground-auto\utils\artifacts\e2e-report.html

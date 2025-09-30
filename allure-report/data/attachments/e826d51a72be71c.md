@@ -1,0 +1,176 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6] [cursor=pointer]:
+      - alert [ref=e7] [cursor=pointer]:
+        - img [ref=e9] [cursor=pointer]
+        - generic [ref=e11] [cursor=pointer]: Product added to wish List
+      - button "close" [ref=e12] [cursor=pointer]:
+        - img [ref=e13] [cursor=pointer]
+      - progressbar "notification timer" [ref=e17] [cursor=pointer]
+    - navigation [ref=e19]:
+      - generic [ref=e20]:
+        - link "PlayGround" [ref=e21] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e22] [cursor=pointer]: PlayGround
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Home" [ref=e26] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e27]:
+            - link "Shop" [ref=e28] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=e29]:
+            - link "Components" [ref=e30] [cursor=pointer]:
+              - /url: /components
+          - listitem [ref=e31]:
+            - link "About" [ref=e32] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e33]:
+            - link "Contact" [ref=e34] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e35]:
+            - link "Journal" [ref=e36] [cursor=pointer]:
+              - /url: /journal
+          - listitem [ref=e37]:
+            - link "API" [ref=e38] [cursor=pointer]:
+              - /url: /apidoc
+          - generic [ref=e41]:
+            - log [ref=e43]
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e47]: English
+                - combobox [ref=e50]
+              - img [ref=e54]
+    - generic [ref=e56]:
+      - generic [ref=e59]:
+        - generic [ref=e61] [cursor=pointer]:
+          - img [ref=e62] [cursor=pointer]
+          - paragraph [ref=e64] [cursor=pointer]: Shop by Category
+        - generic [ref=e65]:
+          - textbox "Search your products here" [ref=e66]
+          - img [ref=e67]
+        - generic [ref=e69] [cursor=pointer]:
+          - generic [ref=e71] [cursor=pointer]:
+            - img [ref=e72] [cursor=pointer]
+            - img [ref=e74] [cursor=pointer]
+          - link "1" [ref=e76] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e77] [cursor=pointer]:
+              - img [ref=e78] [cursor=pointer]
+              - generic [ref=e80] [cursor=pointer]: "1"
+          - link "2" [active] [ref=e81] [cursor=pointer]:
+            - /url: /wishlist
+            - generic [ref=e82] [cursor=pointer]:
+              - img [ref=e83] [cursor=pointer]
+              - generic [ref=e85] [cursor=pointer]: "2"
+      - generic [ref=e86]:
+        - link "Profile" [ref=e87] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=e88] [cursor=pointer]:
+            - generic [ref=e89] [cursor=pointer]:
+              - img [ref=e90] [cursor=pointer]
+              - img [ref=e93] [cursor=pointer]
+            - paragraph [ref=e96] [cursor=pointer]: Profile
+        - link "Buy Now 1" [ref=e97] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e98] [cursor=pointer]:
+            - generic [ref=e99] [cursor=pointer]:
+              - img [ref=e100] [cursor=pointer]
+              - img [ref=e102] [cursor=pointer]
+            - paragraph [ref=e104] [cursor=pointer]: Buy Now
+            - paragraph [ref=e105] [cursor=pointer]: "1"
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - heading "Wishlist" [level=1] [ref=e108]
+          - paragraph [ref=e109]:
+            - img [ref=e111]
+            - generic [ref=e113]: wishlist
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp" [ref=e117]
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - heading "Sony WH-1000XM4" [level=2] [ref=e120]
+                - paragraph [ref=e121]: Black
+                - paragraph [ref=e122]: $349.99
+                - paragraph [ref=e123]: Experience industry-leading noise cancellation with the Sony WH-1000XM4 headphones. Featuring advanced Adaptive Sound Control, Dual Noise Sensor technology, and up to 30 hours of battery life, they deliver immersive sound in any environment.
+              - generic [ref=e124]:
+                - button "Add to Cart" [ref=e125] [cursor=pointer]:
+                  - text: Add to Cart
+                  - img [ref=e126] [cursor=pointer]
+                - button "Remove" [ref=e128] [cursor=pointer]:
+                  - text: Remove
+                  - img [ref=e129] [cursor=pointer]
+          - generic [ref=e131]:
+            - img "https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp" [ref=e133]
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - heading "Sony WH-1000XM4" [level=2] [ref=e136]
+                - paragraph [ref=e137]: Black
+                - paragraph [ref=e138]: $349.99
+                - paragraph [ref=e139]: Experience industry-leading noise cancellation with the Sony WH-1000XM4 headphones. Featuring advanced Adaptive Sound Control, Dual Noise Sensor technology, and up to 30 hours of battery life, they deliver immersive sound in any environment.
+              - generic [ref=e140]:
+                - button "Add to Cart" [ref=e141] [cursor=pointer]:
+                  - text: Add to Cart
+                  - img [ref=e142] [cursor=pointer]
+                - button "Remove" [ref=e144] [cursor=pointer]:
+                  - text: Remove
+                  - img [ref=e145] [cursor=pointer]
+          - button "Reset Wishlist" [ref=e147] [cursor=pointer]
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - heading "More about PlayGround" [level=3] [ref=e151]
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: Sign up for our newsletter to receive updates and news.
+            - list [ref=e154]:
+              - link [ref=e155] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e156] [cursor=pointer]:
+                  - img [ref=e157] [cursor=pointer]
+              - link [ref=e159] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e160] [cursor=pointer]:
+                  - img [ref=e161] [cursor=pointer]
+              - link [ref=e163] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e164] [cursor=pointer]:
+                  - img [ref=e165] [cursor=pointer]
+              - link [ref=e167] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e168] [cursor=pointer]:
+                  - img [ref=e169] [cursor=pointer]
+        - generic [ref=e171]:
+          - heading "Shop" [level=3] [ref=e172]
+          - list [ref=e173]:
+            - listitem [ref=e174] [cursor=pointer]: Accesories
+            - listitem [ref=e175] [cursor=pointer]: Clothes
+            - listitem [ref=e176] [cursor=pointer]: Electronics
+            - listitem [ref=e177] [cursor=pointer]: Home appliances
+            - listitem [ref=e178] [cursor=pointer]: New Arrivals
+        - generic [ref=e179]:
+          - heading "Your account" [level=3] [ref=e180]
+          - list [ref=e181]:
+            - listitem [ref=e182] [cursor=pointer]: Profile
+            - listitem [ref=e183] [cursor=pointer]: Orders
+            - listitem [ref=e184] [cursor=pointer]: Addresses
+            - listitem [ref=e185] [cursor=pointer]: Account Details
+            - listitem [ref=e186] [cursor=pointer]: Payment Options
+        - generic [ref=e187]:
+          - heading "Subscribe to our newsletter." [level=3] [ref=e188]
+          - generic [ref=e189]:
+            - paragraph [ref=e190]: Sign up for our newsletter to receive updates and news.
+            - generic [ref=e191]:
+              - textbox "Insert your email ...*" [ref=e193]
+              - button "Subscribe" [ref=e194] [cursor=pointer]
+            - img "/assets/payment-BAywfhtf.png" [ref=e195]
+      - paragraph [ref=e198]:
+        - img [ref=e200]
+        - text: Copyright 2024 | PlayGround | All Rights Reserved |
+        - link "Powered by Testing Mavens" [ref=e202] [cursor=pointer]:
+          - /url: https://www.testingmavens.com/
+          - generic [ref=e203] [cursor=pointer]: Powered by Testing Mavens
+  - img [ref=e206]
+```

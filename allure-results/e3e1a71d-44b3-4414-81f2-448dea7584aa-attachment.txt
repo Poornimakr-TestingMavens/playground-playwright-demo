@@ -1,0 +1,3 @@
+Clicked on Shop By Category link
+Selected category: Mobiles
+Selected category: Laptops

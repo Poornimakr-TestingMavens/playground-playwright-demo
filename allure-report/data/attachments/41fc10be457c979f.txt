@@ -1,0 +1,6 @@
+Clicked on Shop By Category link
+Selected category: Mobiles
+Selected category: Laptops
+Added Samsung Galaxy S22 Ultra from Mobiles to wishlist
+Added Gigabyte Aero 15 OLED from Laptops to wishlist
+Found 0 best seller items

@@ -1,0 +1,4 @@
+Clicked on Shop By Category link
+Selecting category: Headsets
+Adding Sony WH-1000XM4 from Headsets to wishlist
+E2E report generated: C:\Projects\playground-auto\utils\artifacts\e2e-report.html

@@ -1,0 +1,144 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "PlayGround" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9] [cursor=pointer]: PlayGround
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Home" [ref=e13] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e14]:
+            - link "Shop" [ref=e15] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=e16]:
+            - link "Components" [ref=e17] [cursor=pointer]:
+              - /url: /components
+          - listitem [ref=e18]:
+            - link "About" [ref=e19] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e20]:
+            - link "Contact" [ref=e21] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e22]:
+            - link "Journal" [ref=e23] [cursor=pointer]:
+              - /url: /journal
+          - listitem [ref=e24]:
+            - link "API" [ref=e25] [cursor=pointer]:
+              - /url: /apidoc
+          - generic [ref=e28]:
+            - log [ref=e30]
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - generic [ref=e34]: English
+                - combobox [ref=e37]
+              - img [ref=e41]
+    - generic [ref=e43]:
+      - generic [ref=e46]:
+        - generic [ref=e48] [cursor=pointer]:
+          - img [ref=e49] [cursor=pointer]
+          - paragraph [ref=e51] [cursor=pointer]: Shop by Category
+        - generic [ref=e52]:
+          - textbox "Search your products here" [ref=e53]
+          - img [ref=e54]
+        - generic [ref=e56] [cursor=pointer]:
+          - generic [ref=e57] [cursor=pointer]:
+            - generic [ref=e58] [cursor=pointer]:
+              - img [ref=e59] [cursor=pointer]
+              - img [ref=e61] [cursor=pointer]
+            - list [ref=e63] [cursor=pointer]:
+              - link "Login" [ref=e64] [cursor=pointer]:
+                - /url: /signin
+                - listitem [ref=e65] [cursor=pointer]: Login
+              - link "Sign Up" [ref=e66] [cursor=pointer]:
+                - /url: /signup
+                - listitem [ref=e67] [cursor=pointer]: Sign Up
+          - link "0" [ref=e68] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e69] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72] [cursor=pointer]: "0"
+      - link "Buy Now" [ref=e74] [cursor=pointer]:
+        - /url: /cart
+        - generic [ref=e75] [cursor=pointer]:
+          - generic [ref=e76] [cursor=pointer]:
+            - img [ref=e77] [cursor=pointer]
+            - img [ref=e79] [cursor=pointer]
+          - paragraph [ref=e81] [cursor=pointer]: Buy Now
+      - generic [ref=e83]:
+        - heading "Welcome Back" [level=2] [ref=e84]
+        - paragraph [ref=e85]: Login to your account
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]: Email Address
+            - textbox "Email Address" [ref=e89]: pattirujehe-2255@yopmail.com
+          - generic [ref=e90]:
+            - generic [ref=e91]: Password
+            - textbox "Password" [ref=e92]: Sample@123
+          - button "Login" [ref=e93] [cursor=pointer]
+        - paragraph [ref=e94]:
+          - text: Don't have an account?
+          - link "Sign Up" [ref=e95] [cursor=pointer]:
+            - /url: /signup
+        - paragraph [ref=e96]:
+          - text: Forgot Password?
+          - link "Reset Here" [ref=e97] [cursor=pointer]:
+            - /url: /forgot-password
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - heading "More about PlayGround" [level=3] [ref=e101]
+          - generic [ref=e102]:
+            - paragraph [ref=e103]: Sign up for our newsletter to receive updates and news.
+            - list [ref=e104]:
+              - link [ref=e105] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e106] [cursor=pointer]:
+                  - img [ref=e107] [cursor=pointer]
+              - link [ref=e109] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e110] [cursor=pointer]:
+                  - img [ref=e111] [cursor=pointer]
+              - link [ref=e113] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e114] [cursor=pointer]:
+                  - img [ref=e115] [cursor=pointer]
+              - link [ref=e117] [cursor=pointer]:
+                - /url: /
+                - listitem [ref=e118] [cursor=pointer]:
+                  - img [ref=e119] [cursor=pointer]
+        - generic [ref=e121]:
+          - heading "Shop" [level=3] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124] [cursor=pointer]: Accesories
+            - listitem [ref=e125] [cursor=pointer]: Clothes
+            - listitem [ref=e126] [cursor=pointer]: Electronics
+            - listitem [ref=e127] [cursor=pointer]: Home appliances
+            - listitem [ref=e128] [cursor=pointer]: New Arrivals
+        - generic [ref=e129]:
+          - heading "Your account" [level=3] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132] [cursor=pointer]: Profile
+            - listitem [ref=e133] [cursor=pointer]: Orders
+            - listitem [ref=e134] [cursor=pointer]: Addresses
+            - listitem [ref=e135] [cursor=pointer]: Account Details
+            - listitem [ref=e136] [cursor=pointer]: Payment Options
+        - generic [ref=e137]:
+          - heading "Subscribe to our newsletter." [level=3] [ref=e138]
+          - generic [ref=e139]:
+            - paragraph [ref=e140]: Sign up for our newsletter to receive updates and news.
+            - generic [ref=e141]:
+              - textbox "Insert your email ...*" [ref=e143]
+              - button "Subscribe" [ref=e144] [cursor=pointer]
+            - img "/assets/payment-BAywfhtf.png" [ref=e145]
+      - paragraph [ref=e148]:
+        - img [ref=e150]
+        - text: Copyright 2024 | PlayGround | All Rights Reserved |
+        - link "Powered by Testing Mavens" [ref=e152] [cursor=pointer]:
+          - /url: https://www.testingmavens.com/
+          - generic [ref=e153] [cursor=pointer]: Powered by Testing Mavens
+  - img [ref=e156]
+```
